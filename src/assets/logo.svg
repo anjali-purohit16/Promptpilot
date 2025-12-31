@@ -1,0 +1,36 @@
+<svg 
+  width="10" 
+  height="10" 
+  viewBox="0 0 24 24" 
+  fill="none" 
+  xmlns="http://www.w3.org/2000/svg" 
+  aria-label="PromptPilot Logo">
+  
+  <circle 
+    cx="12" 
+    cy="12" 
+    r="10" 
+    stroke="#8A4FFF" 
+    stroke-width="1"
+  />
+  
+  <path 
+    d="M3 12.5L21 3.5L12.5 21L11.5 13.5L3 11.5Z" 
+    fill="#8A4FFF"
+  />
+  
+  <!-- <line 
+    x1="2" y1="14" 
+    x2="5" y2="13" 
+    stroke="#8A4FFF" 
+    stroke-width="2" 
+    stroke-linecap="round"
+  />
+  <line 
+    x1="2" y1="17" 
+    x2="5" y2="16" 
+    stroke="#8A4FFF" 
+    stroke-width="2" 
+    stroke-linecap="round"
+  /> -->
+</svg>
