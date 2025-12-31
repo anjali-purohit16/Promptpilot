@@ -43,6 +43,7 @@ HTTP Client: Axios for API requests.
 
 Icons: Lucide React.
 
+
 Backend
 Server: Node.js & Express.js.
 
@@ -57,7 +58,6 @@ Image Gen: ClipDrop API.
 Computer Vision: Cloudinary AI Transformations.
 
 File Handling: Multer (for uploads) & PDF-Parse (for resume analysis).
-
 
 🚀 Getting Started
 Prerequisites
@@ -76,7 +76,7 @@ Create a .env file in the root directory and add the following keys:
 
 Code snippet
 
-# Frontend
+# Frontend (Vite)
 VITE_CLERK_PUBLISHABLE_KEY=pk_test_...
 VITE_BASE_URL=http://localhost:5000
 
@@ -100,11 +100,18 @@ Install Dependencies
 Bash
 
 npm install
-Run the Development Server
+# or if you have separate folders for client/server:
+# cd client && npm install
+# cd ../server && npm install
+Run the Application
 
 Bash
 
+# Run Frontend (in one terminal)
 npm run dev
+
+# Run Backend (in another terminal)
+node server.js 
 📂 Project Structure
 Bash
 
